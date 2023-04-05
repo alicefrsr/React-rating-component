@@ -1,0 +1,79 @@
+.star-img-container {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #323d49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-star {
+  fill: #fb7413;
+}
+
+.rating-title {
+  color: #fff;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.6rem;
+}
+
+.rating-text {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.rating-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.rating-circle-btn {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: transparent;
+  background-color: #323843;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #959eac;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.rating-circle-btn:hover {
+  background-color: #7c8798;
+  color: #fff;
+}
+
+.rating-circle-btn.active {
+  color: #fff;
+  background-color: #fb7413;
+}
+
+.submit-btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 12px 0;
+  background-color: #fb7413;
+  color: #fff;
+  border-radius: 25px;
+  letter-spacing: 1.5px;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.submit-btn:active {
+  background-color: #fff;
+  color: #fb7413;
+}
